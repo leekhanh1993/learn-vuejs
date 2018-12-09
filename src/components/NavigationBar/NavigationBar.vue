@@ -2,11 +2,11 @@
   <div class="NavigationBar">
     <nav>
       <div class="nav-wrapper black">
-        <router-link to="/" class="brand-logo center">Logo</router-link>
+        <router-link to="/" class="brand-logo center">Prick Frame</router-link>
         <!-- <a href="#" class="brand-logo center">Logo</a> -->
         <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li>
-            <router-link to="/photos">Photos</router-link>
+            <router-link to="/viewimage">Photos</router-link>
           </li>
         </ul>
       </div>

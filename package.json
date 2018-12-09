@@ -41,6 +41,10 @@
       "autoprefixer": {}
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leekhanh1993/learn-vuejs.git"
+  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
