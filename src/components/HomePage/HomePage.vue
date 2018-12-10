@@ -4,7 +4,12 @@
       <div class="nav-wrapper white">
         <form>
           <div class="input-field">
-            <input id="search" type="search" placeholder="Find your beautiful photos">
+            <input
+              v-model="keyword"
+              id="search"
+              type="search"
+              placeholder="Find your beautiful photos"
+            >
             <label class="label-icon" for="search">
               <i class="material-icons">search</i>
             </label>
@@ -24,12 +29,18 @@ export default {
   name: "HomePage",
   data() {
     return {
+      keyword: "",
       divImage: image,
       divStyleImage: {
         maxHeight: "10%",
         maxWidth: "100%"
       }
     };
+  },
+  methods: {
+    clearSearchField: function() {
+      this.keyword = "";
+    }
   }
 };
 </script>
